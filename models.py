@@ -25,7 +25,7 @@ class Name(Field):
 
 class Phone(Field):
     def __init__(self, number):
-        super().__init__(Field)
+        super().__init__(number)
         self.number = number
 
     def __str__(self):
